@@ -1,0 +1,29 @@
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes e configurações locais
+.env
+.env.*
+!.env.example
+
+# Arquivos de configuração de editores
+.vscode/
+.idea/
+
+# Arquivos temporários e de sistema
+*.log
+.DS_Store
+Thumbs.db
+
+# Áudios gerados (MP3)
+audios/*.mp3
+
+# Arquivos de legendas gerados
+audios/*.srt
